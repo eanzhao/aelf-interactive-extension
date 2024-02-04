@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C15496B-3996-4094-842B-4E1EFAB41DCE}"
+	ProjectSection(SolutionItems) = preProject
+		src\AElfExtensionDemo.ipynb = src\AElfExtensionDemo.ipynb
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AElfExtensionDemo", "src\AElfExtensionDemo\AElfExtensionDemo.csproj", "{092F422F-67E2-4FFE-9B88-A837AE915208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5AAB1A7A-84B3-45B7-B653-A54008D68C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AElfExtensionDemo.Test", "test\AElfExtensionDemo.Test\AElfExtensionDemo.Test.csproj", "{5F0681FB-B80C-4086-9F97-8F817B499F01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{092F422F-67E2-4FFE-9B88-A837AE915208} = {7C15496B-3996-4094-842B-4E1EFAB41DCE}
+		{5F0681FB-B80C-4086-9F97-8F817B499F01} = {5AAB1A7A-84B3-45B7-B653-A54008D68C03}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{092F422F-67E2-4FFE-9B88-A837AE915208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092F422F-67E2-4FFE-9B88-A837AE915208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092F422F-67E2-4FFE-9B88-A837AE915208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092F422F-67E2-4FFE-9B88-A837AE915208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0681FB-B80C-4086-9F97-8F817B499F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0681FB-B80C-4086-9F97-8F817B499F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0681FB-B80C-4086-9F97-8F817B499F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0681FB-B80C-4086-9F97-8F817B499F01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
