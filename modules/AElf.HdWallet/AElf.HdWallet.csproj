@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <OutputType>Library</OutputType>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <RootNamespace>AElf.HdWallet</RootNamespace>
+        <IsPackable>true</IsPackable>
+        <Version>0.0.1</Version>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="NBitcoin" Version="6.0.18"/>
+        <PackageReference Include="AElf.Types" Version="1.6.0"/>
+    </ItemGroup>
+</Project>

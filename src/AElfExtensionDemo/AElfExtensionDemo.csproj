@@ -18,4 +18,8 @@
         <None Include="extension.dib" Pack="true" PackagePath="interactive-extensions/dotnet" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\modules\AElf.HdWallet\AElf.HdWallet.csproj" />
+    </ItemGroup>
+
 </Project>
